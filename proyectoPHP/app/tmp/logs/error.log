@@ -1,0 +1,1275 @@
+2015-03-18 08:04:05 Error: Fatal Error (4): syntax error, unexpected '?>', expecting function (T_FUNCTION) in [C:\xampp\htdocs\proyectoPHP\app\Controller\InvestigadoresController.php, line 17]
+2015-03-18 08:04:05 Error: [FatalErrorException] syntax error, unexpected '?>', expecting function (T_FUNCTION)
+Request URL: /proyectoPHP/Investigadores/index
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 17, Array)
+#2 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 17, Array)
+#3 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-18 08:13:20 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\proyectoPHP\app\Controller\InvestigadoresController.php, line 19]
+2015-03-18 08:13:20 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /proyectoPHP/Investigadores/index
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 19, Array)
+#2 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 19, Array)
+#3 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-18 08:14:13 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\proyectoPHP\app\Controller\InvestigadoresController.php, line 19]
+2015-03-18 08:14:13 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /proyectoPHP/Investigadores
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 19, Array)
+#2 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 19, Array)
+#3 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-18 08:16:10 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\proyectoPHP\app\Controller\InvestigadoresController.php, line 19]
+2015-03-18 08:16:10 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /proyectoPHP/Investigadores
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 19, Array)
+#2 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 19, Array)
+#3 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-18 08:18:13 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\proyectoPHP\app\Controller\InvestigadoresController.php, line 19]
+2015-03-18 08:18:13 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /proyectoPHP/Investigadores
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 19, Array)
+#2 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 19, Array)
+#3 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-18 08:20:17 Error: [MissingTableException] Table investigadors for model Investigador was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'investigadors',
+  'class' => 'Investigador',
+  'ds' => 'default',
+)
+Request URL: /proyectoPHP/Investigadores
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\lib\Cake\Model\Model.php(3644): Model->setSource('investigadors')
+#1 C:\xampp\htdocs\proyectoPHP\lib\Cake\Model\Model.php(3022): Model->getDataSource()
+#2 C:\xampp\htdocs\proyectoPHP\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#3 C:\xampp\htdocs\proyectoPHP\app\Controller\InvestigadoresController.php(19): Model->find('all')
+#4 [internal function]: InvestigadoresController->index()
+#5 C:\xampp\htdocs\proyectoPHP\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(InvestigadoresController), Array)
+#6 C:\xampp\htdocs\proyectoPHP\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 C:\xampp\htdocs\proyectoPHP\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(InvestigadoresController), Object(CakeRequest))
+#8 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2015-03-18 08:24:21 Error: [MissingTableException] Table investigadors for model Investigador was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'investigadors',
+  'class' => 'Investigador',
+  'ds' => 'default',
+)
+Request URL: /proyectoPHP/Investigadores
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\lib\Cake\Model\Model.php(3644): Model->setSource('investigadors')
+#1 C:\xampp\htdocs\proyectoPHP\lib\Cake\Model\Model.php(3022): Model->getDataSource()
+#2 C:\xampp\htdocs\proyectoPHP\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#3 C:\xampp\htdocs\proyectoPHP\app\Controller\InvestigadoresController.php(19): Model->find('all')
+#4 [internal function]: InvestigadoresController->index()
+#5 C:\xampp\htdocs\proyectoPHP\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(InvestigadoresController), Array)
+#6 C:\xampp\htdocs\proyectoPHP\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 C:\xampp\htdocs\proyectoPHP\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(InvestigadoresController), Object(CakeRequest))
+#8 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2015-03-18 08:24:28 Error: [MissingControllerException] Controller class InvestigadorController could not be found.
+Exception Attributes: array (
+  'class' => 'InvestigadorController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/Investigador
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-18 08:24:42 Error: [MissingTableException] Table investigadors for model Investigador was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'investigadors',
+  'class' => 'Investigador',
+  'ds' => 'default',
+)
+Request URL: /proyectoPHP/Investigadores/index
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\lib\Cake\Model\Model.php(3644): Model->setSource('investigadors')
+#1 C:\xampp\htdocs\proyectoPHP\lib\Cake\Model\Model.php(3022): Model->getDataSource()
+#2 C:\xampp\htdocs\proyectoPHP\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#3 C:\xampp\htdocs\proyectoPHP\app\Controller\InvestigadoresController.php(19): Model->find('all')
+#4 [internal function]: InvestigadoresController->index()
+#5 C:\xampp\htdocs\proyectoPHP\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(InvestigadoresController), Array)
+#6 C:\xampp\htdocs\proyectoPHP\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 C:\xampp\htdocs\proyectoPHP\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(InvestigadoresController), Object(CakeRequest))
+#8 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2015-03-18 08:29:48 Error: [MissingTableException] Table investigadors for model Investigador was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'investigadors',
+  'class' => 'Investigador',
+  'ds' => 'default',
+)
+Request URL: /proyectoPHP/Investigadores/index
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\lib\Cake\Model\Model.php(3644): Model->setSource('investigadors')
+#1 C:\xampp\htdocs\proyectoPHP\lib\Cake\Model\Model.php(3022): Model->getDataSource()
+#2 C:\xampp\htdocs\proyectoPHP\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#3 C:\xampp\htdocs\proyectoPHP\app\Controller\InvestigadoresController.php(19): Model->find('all')
+#4 [internal function]: InvestigadoresController->index()
+#5 C:\xampp\htdocs\proyectoPHP\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(InvestigadoresController), Array)
+#6 C:\xampp\htdocs\proyectoPHP\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 C:\xampp\htdocs\proyectoPHP\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(InvestigadoresController), Object(CakeRequest))
+#8 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2015-03-18 08:29:54 Error: [MissingTableException] Table investigadors for model Investigador was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'investigadors',
+  'class' => 'Investigador',
+  'ds' => 'default',
+)
+Request URL: /proyectoPHP/Investigadores
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\lib\Cake\Model\Model.php(3644): Model->setSource('investigadors')
+#1 C:\xampp\htdocs\proyectoPHP\lib\Cake\Model\Model.php(3022): Model->getDataSource()
+#2 C:\xampp\htdocs\proyectoPHP\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#3 C:\xampp\htdocs\proyectoPHP\app\Controller\InvestigadoresController.php(19): Model->find('all')
+#4 [internal function]: InvestigadoresController->index()
+#5 C:\xampp\htdocs\proyectoPHP\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(InvestigadoresController), Array)
+#6 C:\xampp\htdocs\proyectoPHP\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 C:\xampp\htdocs\proyectoPHP\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(InvestigadoresController), Object(CakeRequest))
+#8 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2015-03-18 08:35:36 Error: [MissingTableException] Table investigadors for model Investigador was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'investigadors',
+  'class' => 'Investigador',
+  'ds' => 'default',
+)
+Request URL: /proyectoPHP/Investigadores
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\lib\Cake\Model\Model.php(3644): Model->setSource('investigadors')
+#1 C:\xampp\htdocs\proyectoPHP\lib\Cake\Model\Model.php(3022): Model->getDataSource()
+#2 C:\xampp\htdocs\proyectoPHP\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#3 C:\xampp\htdocs\proyectoPHP\app\Controller\InvestigadoresController.php(19): Model->find('all')
+#4 [internal function]: InvestigadoresController->index()
+#5 C:\xampp\htdocs\proyectoPHP\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(InvestigadoresController), Array)
+#6 C:\xampp\htdocs\proyectoPHP\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 C:\xampp\htdocs\proyectoPHP\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(InvestigadoresController), Object(CakeRequest))
+#8 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2015-03-18 08:55:33 Error: Fatal Error (4): syntax error, unexpected ''controller'' (T_CONSTANT_ENCAPSED_STRING) in [C:\xampp\htdocs\proyectoPHP\app\View\Convocatorias\index.ctp, line 23]
+2015-03-18 08:55:33 Error: [FatalErrorException] syntax error, unexpected ''controller'' (T_CONSTANT_ENCAPSED_STRING)
+Request URL: /proyectoPHP/Convocatorias
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23, Array)
+#2 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23, Array)
+#3 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-18 08:57:04 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ')' in [C:\xampp\htdocs\proyectoPHP\app\View\Convocatorias\index.ctp, line 23]
+2015-03-18 08:57:04 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ')'
+Request URL: /proyectoPHP/Convocatorias
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23, Array)
+#2 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23, Array)
+#3 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-18 08:57:27 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ')' in [C:\xampp\htdocs\proyectoPHP\app\View\Convocatorias\index.ctp, line 23]
+2015-03-18 08:57:27 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ')'
+Request URL: /proyectoPHP/Convocatorias
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23, Array)
+#2 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23, Array)
+#3 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-18 08:59:16 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ')' in [C:\xampp\htdocs\proyectoPHP\app\View\Convocatorias\index.ctp, line 23]
+2015-03-18 08:59:16 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ')'
+Request URL: /proyectoPHP/Convocatorias
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23, Array)
+#2 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23, Array)
+#3 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-18 09:01:06 Error: [MissingControllerException] Controller class ConvocatoriaController could not be found.
+Exception Attributes: array (
+  'class' => 'ConvocatoriaController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/convocatoria/ver
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-18 09:18:09 Error: Fatal Error (1): Call to undefined function find() in [C:\xampp\htdocs\proyectoPHP\app\Controller\LineasInvestigacionController.php, line 19]
+2015-03-18 09:18:09 Error: [FatalErrorException] Call to undefined function find()
+Request URL: /proyectoPHP/LineasInvestigacion
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 19, Array)
+#2 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 19, Array)
+#3 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-18 09:19:26 Error: Fatal Error (1): Call to undefined function find() in [C:\xampp\htdocs\proyectoPHP\app\Controller\LineasInvestigacionController.php, line 19]
+2015-03-18 09:19:26 Error: [FatalErrorException] Call to undefined function find()
+Request URL: /proyectoPHP/LineasInvestigacion
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 19, Array)
+#2 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 19, Array)
+#3 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-18 09:20:05 Error: Fatal Error (1): Call to undefined function find() in [C:\xampp\htdocs\proyectoPHP\app\Controller\LineasInvestigacionController.php, line 19]
+2015-03-18 09:20:05 Error: [FatalErrorException] Call to undefined function find()
+Request URL: /proyectoPHP/LineasInvestigacion
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 19, Array)
+#2 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 19, Array)
+#3 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-18 09:28:57 Error: [MissingControllerException] Controller class SemillerosController could not be found.
+Exception Attributes: array (
+  'class' => 'SemillerosController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/Semilleros
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-18 09:37:19 Error: [MissingControllerException] Controller class SemilleroController could not be found.
+Exception Attributes: array (
+  'class' => 'SemilleroController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/semillero/ver/1
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-18 10:02:11 Error: [MissingControllerException] Controller class SemilleroController could not be found.
+Exception Attributes: array (
+  'class' => 'SemilleroController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/semillero/ver/1
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-18 10:03:12 Error: [MissingControllerException] Controller class SemilleroController could not be found.
+Exception Attributes: array (
+  'class' => 'SemilleroController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/semillero/ver/1
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-18 10:03:21 Error: [MissingControllerException] Controller class SemilleroController could not be found.
+Exception Attributes: array (
+  'class' => 'SemilleroController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/semillero/ver/1
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-18 10:04:39 Error: [MissingControllerException] Controller class SemilleroController could not be found.
+Exception Attributes: array (
+  'class' => 'SemilleroController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/semillero/ver/1
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-18 10:05:20 Error: [MissingControllerException] Controller class SemilleroController could not be found.
+Exception Attributes: array (
+  'class' => 'SemilleroController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/semillero/ver/1
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-18 10:05:34 Error: [MissingControllerException] Controller class SemilleroController could not be found.
+Exception Attributes: array (
+  'class' => 'SemilleroController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/semillero/ver/1
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-18 10:06:24 Error: [MissingControllerException] Controller class SemilleroController could not be found.
+Exception Attributes: array (
+  'class' => 'SemilleroController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/semillero/ver/1
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-18 10:06:30 Error: [MissingControllerException] Controller class SemilleroController could not be found.
+Exception Attributes: array (
+  'class' => 'SemilleroController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/semillero
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-18 10:17:38 Error: [MissingControllerException] Controller class ConvocatoriaController could not be found.
+Exception Attributes: array (
+  'class' => 'ConvocatoriaController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/Convocatoria
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-18 10:17:50 Error: [MissingControllerException] Controller class ConvocatoriaController could not be found.
+Exception Attributes: array (
+  'class' => 'ConvocatoriaController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/convocatoria/ver
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-18 10:23:45 Error: [MissingControllerException] Controller class ...imgController could not be found.
+Exception Attributes: array (
+  'class' => '...imgController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/...img/images.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-18 10:35:13 Error: [MissingControllerException] Controller class ConvocatoriaController could not be found.
+Exception Attributes: array (
+  'class' => 'ConvocatoriaController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/convocatoria/ver
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-18 10:50:27 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\proyectoPHP\app\Controller\ConvocatoriasController.php, line 27]
+2015-03-18 10:50:27 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /proyectoPHP/Convocatorias
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 27)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 27, Array)
+#2 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 27, Array)
+#3 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-18 10:51:23 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\proyectoPHP\app\Controller\ConvocatoriasController.php, line 27]
+2015-03-18 10:51:23 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /proyectoPHP/Convocatorias
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 27)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 27, Array)
+#2 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 27, Array)
+#3 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-18 10:51:57 Error: [MissingControllerException] Controller class ConvocatoriaController could not be found.
+Exception Attributes: array (
+  'class' => 'ConvocatoriaController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/convocatoria/ver
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-18 10:52:14 Error: [MissingControllerException] Controller class ConvocatoriaController could not be found.
+Exception Attributes: array (
+  'class' => 'ConvocatoriaController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/convocatoria/ver
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-18 10:53:34 Error: [MissingControllerException] Controller class ConvocatoriaController could not be found.
+Exception Attributes: array (
+  'class' => 'ConvocatoriaController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/convocatoria/ver
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-18 10:54:09 Error: [MissingControllerException] Controller class ConvocatoriaController could not be found.
+Exception Attributes: array (
+  'class' => 'ConvocatoriaController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/convocatoria/ver
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-18 10:56:28 Error: [MissingControllerException] Controller class ConvocatoriaController could not be found.
+Exception Attributes: array (
+  'class' => 'ConvocatoriaController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/convocatoria/ver
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-18 10:58:23 Error: [MissingControllerException] Controller class ConvocatoriaController could not be found.
+Exception Attributes: array (
+  'class' => 'ConvocatoriaController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/convocatoria/ver
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-18 11:00:57 Error: [MissingControllerException] Controller class ConvocatoriaController could not be found.
+Exception Attributes: array (
+  'class' => 'ConvocatoriaController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/convocatoria/ver
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-18 11:02:25 Error: [MissingControllerException] Controller class ConvocatoriaController could not be found.
+Exception Attributes: array (
+  'class' => 'ConvocatoriaController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/convocatoria/ver
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-18 11:05:06 Error: [MissingControllerException] Controller class ConvocatoriaController could not be found.
+Exception Attributes: array (
+  'class' => 'ConvocatoriaController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/convocatoria/ver
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-18 11:05:37 Error: [MissingControllerException] Controller class ConvocatoriaController could not be found.
+Exception Attributes: array (
+  'class' => 'ConvocatoriaController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/convocatoria/ver
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-18 11:05:56 Error: [MissingControllerException] Controller class ConvocatoriaController could not be found.
+Exception Attributes: array (
+  'class' => 'ConvocatoriaController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/convocatoria/ver
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-18 11:06:29 Error: [MissingControllerException] Controller class ConvocatoriaController could not be found.
+Exception Attributes: array (
+  'class' => 'ConvocatoriaController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/convocatoria/ver/1
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-18 11:08:03 Error: [MissingControllerException] Controller class ConvocatoriaController could not be found.
+Exception Attributes: array (
+  'class' => 'ConvocatoriaController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/convocatoria/ver/1
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-18 11:08:10 Error: [MissingControllerException] Controller class ConvocatoriaController could not be found.
+Exception Attributes: array (
+  'class' => 'ConvocatoriaController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/convocatoria/ver
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-18 11:09:00 Error: [MissingControllerException] Controller class ConvocatoriaController could not be found.
+Exception Attributes: array (
+  'class' => 'ConvocatoriaController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/convocatoria
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-18 11:09:09 Error: [MissingControllerException] Controller class ConvocatoriaController could not be found.
+Exception Attributes: array (
+  'class' => 'ConvocatoriaController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/convocatoria/ver
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-18 11:10:25 Error: [MissingActionException] Action ConvocatoriasController::ver() could not be found.
+Exception Attributes: array (
+  'controller' => 'ConvocatoriasController',
+  'action' => 'ver',
+)
+Request URL: /proyectoPHP/convocatorias/ver
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\proyectoPHP\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ConvocatoriasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-18 11:10:35 Error: [NotFoundException] Datos Incorrectos
+Request URL: /proyectoPHP/convocatorias/verConvocatoria
+Stack Trace:
+#0 [internal function]: ConvocatoriasController->verConvocatoria()
+#1 C:\xampp\htdocs\proyectoPHP\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ConvocatoriasController), Array)
+#2 C:\xampp\htdocs\proyectoPHP\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\proyectoPHP\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ConvocatoriasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-18 11:10:45 Error: [MissingControllerException] Controller class ConvocatoriaController could not be found.
+Exception Attributes: array (
+  'class' => 'ConvocatoriaController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/convocatoria/verConvocatoria
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-18 11:11:23 Error: [MissingControllerException] Controller class ConvocatoriaController could not be found.
+Exception Attributes: array (
+  'class' => 'ConvocatoriaController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/Convocatoria
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-18 11:13:16 Error: [MissingControllerException] Controller class ConvocatoriaController could not be found.
+Exception Attributes: array (
+  'class' => 'ConvocatoriaController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/convocatoria/ver/1
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-18 11:14:19 Error: [MissingControllerException] Controller class ConvocatoriaController could not be found.
+Exception Attributes: array (
+  'class' => 'ConvocatoriaController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/convocatoria/ver/1
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-18 11:14:37 Error: [MissingControllerException] Controller class ConvocatoriaController could not be found.
+Exception Attributes: array (
+  'class' => 'ConvocatoriaController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/convocatoria/ver/1
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-18 11:15:27 Error: [MissingControllerException] Controller class ConvocatoriaController could not be found.
+Exception Attributes: array (
+  'class' => 'ConvocatoriaController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/convocatoria/ver/1
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-18 11:15:32 Error: [MissingControllerException] Controller class ConvocatoriaController could not be found.
+Exception Attributes: array (
+  'class' => 'ConvocatoriaController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/convocatoria/ver/2
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-18 11:18:05 Error: [MissingControllerException] Controller class ConvocatoriaController could not be found.
+Exception Attributes: array (
+  'class' => 'ConvocatoriaController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/convocatoria/ver/1
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-18 11:26:29 Error: [MissingControllerException] Controller class ConvocatoriaController could not be found.
+Exception Attributes: array (
+  'class' => 'ConvocatoriaController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/convocatoria/ver/1
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-18 11:28:48 Error: [MissingControllerException] Controller class ConvocatoriaController could not be found.
+Exception Attributes: array (
+  'class' => 'ConvocatoriaController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/convocatoria
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-18 11:29:02 Error: [MissingControllerException] Controller class ConvocatoriaController could not be found.
+Exception Attributes: array (
+  'class' => 'ConvocatoriaController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/convocatoria/ver/1
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-18 11:45:55 Error: [MissingActionException] Action SemillerosController::nuevo() could not be found.
+Exception Attributes: array (
+  'controller' => 'SemillerosController',
+  'action' => 'nuevo',
+)
+Request URL: /proyectoPHP/semilleros/nuevo
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\proyectoPHP\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(SemillerosController), Object(CakeRequest))
+#2 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-18 11:46:06 Error: [MissingControllerException] Controller class NuevoController could not be found.
+Exception Attributes: array (
+  'class' => 'NuevoController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/nuevo
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-19 02:15:15 Error: [MissingControllerException] Controller class SeiController could not be found.
+Exception Attributes: array (
+  'class' => 'SeiController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/sei
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-23 17:22:50 Error: [MissingActionException] Action ConvocatoriasController::nuevo() could not be found.
+Exception Attributes: array (
+  'controller' => 'ConvocatoriasController',
+  'action' => 'nuevo',
+)
+Request URL: /proyectoPHP/convocatorias/nuevo
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\proyectoPHP\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ConvocatoriasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-23 17:22:57 Error: [MissingActionException] Action ConvocatoriasController::nuevo() could not be found.
+Exception Attributes: array (
+  'controller' => 'ConvocatoriasController',
+  'action' => 'nuevo',
+)
+Request URL: /proyectoPHP/convocatorias/nuevo
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\proyectoPHP\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ConvocatoriasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-23 17:23:17 Error: [MissingControllerException] Controller class ConvocatoriaController could not be found.
+Exception Attributes: array (
+  'class' => 'ConvocatoriaController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/convocatoria/nuevo
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-23 17:23:50 Error: [MissingControllerException] Controller class ConvocatoriaController could not be found.
+Exception Attributes: array (
+  'class' => 'ConvocatoriaController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/Convocatoria/nuevo
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-23 17:24:23 Error: [MissingControllerException] Controller class ConvocatoriaController could not be found.
+Exception Attributes: array (
+  'class' => 'ConvocatoriaController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/Convocatoria/nuevo
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-23 17:24:43 Error: [MissingControllerException] Controller class ConvocatoriaController could not be found.
+Exception Attributes: array (
+  'class' => 'ConvocatoriaController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/Convocatoria/nuevo
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-23 17:24:56 Error: [MissingControllerException] Controller class ConvocatoriaController could not be found.
+Exception Attributes: array (
+  'class' => 'ConvocatoriaController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/Convocatoria/nuevo
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-23 17:25:24 Error: [MissingControllerException] Controller class ConvocatoriaController could not be found.
+Exception Attributes: array (
+  'class' => 'ConvocatoriaController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/Convocatoria
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-23 17:25:28 Error: [MissingControllerException] Controller class ConvocatoriaController could not be found.
+Exception Attributes: array (
+  'class' => 'ConvocatoriaController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/Convocatoria
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-23 17:25:38 Error: [MissingControllerException] Controller class ConvocatoriaController could not be found.
+Exception Attributes: array (
+  'class' => 'ConvocatoriaController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/Convocatoria/crear
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-23 20:10:14 Error: [MissingControllerException] Controller class SeilleroController could not be found.
+Exception Attributes: array (
+  'class' => 'SeilleroController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/seillero/crear
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-23 20:10:36 Error: [MissingControllerException] Controller class SeilleroController could not be found.
+Exception Attributes: array (
+  'class' => 'SeilleroController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/seillero/crear
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-23 20:11:06 Error: [MissingControllerException] Controller class SemilleroController could not be found.
+Exception Attributes: array (
+  'class' => 'SemilleroController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/semillero/crear
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-23 20:14:47 Error: [MissingControllerException] Controller class SemilleroController could not be found.
+Exception Attributes: array (
+  'class' => 'SemilleroController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/semillero/crear
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-23 20:15:02 Error: [MissingControllerException] Controller class SemilleroController could not be found.
+Exception Attributes: array (
+  'class' => 'SemilleroController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/semillero/crear
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-23 20:15:31 Error: [MissingControllerException] Controller class SemilleroController could not be found.
+Exception Attributes: array (
+  'class' => 'SemilleroController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/semillero/crear
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-23 20:15:49 Error: [MissingControllerException] Controller class SemilleroController could not be found.
+Exception Attributes: array (
+  'class' => 'SemilleroController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/semillero/crear
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-23 20:16:28 Error: [MissingControllerException] Controller class SemilleroController could not be found.
+Exception Attributes: array (
+  'class' => 'SemilleroController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/semillero/crear
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-23 20:18:05 Error: Fatal Error (1): Call to undefined function find() in [C:\xampp\htdocs\proyectoPHP\app\Controller\LineasInvestigacionController.php, line 19]
+2015-03-23 20:18:06 Error: [FatalErrorException] Call to undefined function find()
+Request URL: /proyectoPHP/LineasInvestigacion
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 19, Array)
+#2 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 19, Array)
+#3 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-23 20:18:19 Error: [MissingControllerException] Controller class LineaInvestigacionController could not be found.
+Exception Attributes: array (
+  'class' => 'LineaInvestigacionController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/LineaInvestigacion
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-23 20:19:08 Error: Fatal Error (1): Call to undefined function find() in [C:\xampp\htdocs\proyectoPHP\app\Controller\LineasInvestigacionController.php, line 19]
+2015-03-23 20:19:08 Error: [FatalErrorException] Call to undefined function find()
+Request URL: /proyectoPHP/lineasInvestigacion
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 19, Array)
+#2 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 19, Array)
+#3 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-23 20:19:17 Error: [MissingControllerException] Controller class LineaInvestigacionController could not be found.
+Exception Attributes: array (
+  'class' => 'LineaInvestigacionController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/lineaInvestigacion
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 01:03:56 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\proyectoPHP\app\Controller\InvestigadoresController.php, line 19]
+2015-03-24 01:03:56 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /proyectoPHP/investigadores
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 19, Array)
+#2 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 19, Array)
+#3 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-24 01:06:10 Error: [MissingControllerException] Controller class InvestigadoreController could not be found.
+Exception Attributes: array (
+  'class' => 'InvestigadoreController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/investigadore
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 01:06:14 Error: [MissingControllerException] Controller class InvestigadorController could not be found.
+Exception Attributes: array (
+  'class' => 'InvestigadorController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/investigador
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 01:06:19 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\xampp\htdocs\proyectoPHP\app\Controller\InvestigadoresController.php, line 19]
+2015-03-24 01:06:19 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /proyectoPHP/investigadores
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 19)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 19, Array)
+#2 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 19, Array)
+#3 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-24 01:06:51 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\proyectoPHP\app\Controller\InvestigadoresController.php, line 19]
+2015-03-24 01:06:51 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /proyectoPHP/investigadores
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 19, Array)
+#2 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 19, Array)
+#3 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-24 01:08:54 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\proyectoPHP\app\Controller\InvestigadoresController.php, line 19]
+2015-03-24 01:08:54 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /proyectoPHP/investigadores
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 19, Array)
+#2 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 19, Array)
+#3 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-24 01:18:28 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\proyectoPHP\app\Controller\InvestigadoresController.php, line 19]
+2015-03-24 01:18:28 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /proyectoPHP/investigadores
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 19, Array)
+#2 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 19, Array)
+#3 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-24 01:23:25 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\proyectoPHP\app\Controller\InvestigadoresController.php, line 20]
+2015-03-24 01:23:25 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /proyectoPHP/investigadores
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 20, Array)
+#2 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 20, Array)
+#3 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-24 01:32:54 Error: Fatal Error (4): syntax error, unexpected 'This' (T_STRING), expecting variable (T_VARIABLE) or '$' in [C:\xampp\htdocs\proyectoPHP\app\Controller\InvestigadoresController.php, line 20]
+2015-03-24 01:32:54 Error: [FatalErrorException] syntax error, unexpected 'This' (T_STRING), expecting variable (T_VARIABLE) or '$'
+Request URL: /proyectoPHP/investigadores
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 20, Array)
+#2 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 20, Array)
+#3 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-24 01:33:21 Error: Fatal Error (1): Call to a member function loadModel() on a non-object in [C:\xampp\htdocs\proyectoPHP\app\Controller\InvestigadoresController.php, line 20]
+2015-03-24 01:33:21 Error: [FatalErrorException] Call to a member function loadModel() on a non-object
+Request URL: /proyectoPHP/investigadores
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 20, Array)
+#2 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 20, Array)
+#3 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-24 01:33:45 Error: [MissingTableException] Table investigadors for model Investigador was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'investigadors',
+  'class' => 'Investigador',
+  'ds' => 'default',
+)
+Request URL: /proyectoPHP/investigadores
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\lib\Cake\Model\Model.php(3644): Model->setSource('investigadors')
+#1 C:\xampp\htdocs\proyectoPHP\lib\Cake\Model\Model.php(3022): Model->getDataSource()
+#2 C:\xampp\htdocs\proyectoPHP\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#3 C:\xampp\htdocs\proyectoPHP\app\Controller\InvestigadoresController.php(21): Model->find('all')
+#4 [internal function]: InvestigadoresController->index()
+#5 C:\xampp\htdocs\proyectoPHP\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(InvestigadoresController), Array)
+#6 C:\xampp\htdocs\proyectoPHP\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 C:\xampp\htdocs\proyectoPHP\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(InvestigadoresController), Object(CakeRequest))
+#8 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2015-03-24 01:34:45 Error: [MissingTableException] Table investigadors for model Investigador was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'investigadors',
+  'class' => 'Investigador',
+  'ds' => 'default',
+)
+Request URL: /proyectoPHP/investigadores
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\lib\Cake\Model\Model.php(3644): Model->setSource('investigadors')
+#1 C:\xampp\htdocs\proyectoPHP\lib\Cake\Model\Model.php(3022): Model->getDataSource()
+#2 C:\xampp\htdocs\proyectoPHP\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#3 C:\xampp\htdocs\proyectoPHP\app\Controller\InvestigadoresController.php(21): Model->find('all')
+#4 [internal function]: InvestigadoresController->index()
+#5 C:\xampp\htdocs\proyectoPHP\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(InvestigadoresController), Array)
+#6 C:\xampp\htdocs\proyectoPHP\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 C:\xampp\htdocs\proyectoPHP\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(InvestigadoresController), Object(CakeRequest))
+#8 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2015-03-24 01:36:14 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\proyectoPHP\app\Controller\InvestigadoresController.php, line 21]
+2015-03-24 01:36:14 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /proyectoPHP/investigadores
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 21)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 21, Array)
+#2 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 21, Array)
+#3 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-24 01:40:03 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\proyectoPHP\app\Controller\InvestigadoresController.php, line 21]
+2015-03-24 01:40:03 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /proyectoPHP/investigadores
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 21)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 21, Array)
+#2 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 21, Array)
+#3 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-24 01:40:13 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\proyectoPHP\app\Controller\InvestigadoresController.php, line 21]
+2015-03-24 01:40:13 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /proyectoPHP/investigadores
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 21)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 21, Array)
+#2 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 21, Array)
+#3 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-24 02:08:12 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\proyectoPHP\app\Controller\InvestigadoresController.php, line 21]
+2015-03-24 02:08:12 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /proyectoPHP/investigadores
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 21)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 21, Array)
+#2 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 21, Array)
+#3 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-24 02:08:16 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\proyectoPHP\app\Controller\InvestigadoresController.php, line 21]
+2015-03-24 02:08:16 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /proyectoPHP/investigadores
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 21)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 21, Array)
+#2 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 21, Array)
+#3 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-24 03:01:43 Error: [MissingActionException] Action InvestigadoresController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'InvestigadoresController',
+  'action' => 'index',
+)
+Request URL: /proyectoPHP/investigadores
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\proyectoPHP\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(InvestigadoresController), Object(CakeRequest))
+#2 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-24 15:47:30 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\proyectoPHP\app\Controller\InvestigadoresController.php, line 20]
+2015-03-24 15:47:30 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /proyectoPHP/investigadores
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 20, Array)
+#2 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 20, Array)
+#3 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-24 16:14:20 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\proyectoPHP\app\Controller\InvestigadoresController.php, line 24]
+2015-03-24 16:14:20 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /proyectoPHP/investigadores
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 24)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 24, Array)
+#2 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 24, Array)
+#3 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-24 16:15:54 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\proyectoPHP\app\Controller\InvestigadoresController.php, line 24]
+2015-03-24 16:15:54 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /proyectoPHP/investigadores
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 24)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 24, Array)
+#2 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 24, Array)
+#3 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-24 17:12:20 Error: [MissingControllerException] Controller class InvestigadoresController could not be found.
+Exception Attributes: array (
+  'class' => 'InvestigadoresController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/investigadores
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 17:12:47 Error: [MissingControllerException] Controller class InvestigadoresController could not be found.
+Exception Attributes: array (
+  'class' => 'InvestigadoresController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/investigadores
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 17:12:53 Error: [MissingTableException] Table investigadors for model Investigador was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'investigadors',
+  'class' => 'Investigador',
+  'ds' => 'default',
+)
+Request URL: /proyectoPHP/investigadors
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\lib\Cake\Model\Model.php(3644): Model->setSource('investigadors')
+#1 C:\xampp\htdocs\proyectoPHP\lib\Cake\Model\Model.php(3022): Model->getDataSource()
+#2 C:\xampp\htdocs\proyectoPHP\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#3 C:\xampp\htdocs\proyectoPHP\app\Controller\InvestigadorsController.php(24): Model->find('all')
+#4 [internal function]: InvestigadorsController->index()
+#5 C:\xampp\htdocs\proyectoPHP\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(InvestigadorsController), Array)
+#6 C:\xampp\htdocs\proyectoPHP\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 C:\xampp\htdocs\proyectoPHP\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(InvestigadorsController), Object(CakeRequest))
+#8 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2015-03-24 17:14:43 Error: [MissingViewException] View file "Investigadors\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Investigadors\\index.ctp',
+)
+Request URL: /proyectoPHP/investigadors
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\proyectoPHP\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\proyectoPHP\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\proyectoPHP\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(InvestigadorsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-24 17:20:27 Error: [MissingActionException] Action InvestigadorsController::ver() could not be found.
+Exception Attributes: array (
+  'controller' => 'InvestigadorsController',
+  'action' => 'ver',
+)
+Request URL: /proyectoPHP/investigadors/ver/1
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\proyectoPHP\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(InvestigadorsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-24 18:12:54 Error: [MissingControllerException] Controller class GruposinvestigacionsController could not be found.
+Exception Attributes: array (
+  'class' => 'GruposinvestigacionsController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/gruposinvestigacions
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 18:13:33 Error: [MissingControllerException] Controller class GruposinvestigacionsController could not be found.
+Exception Attributes: array (
+  'class' => 'GruposinvestigacionsController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/Gruposinvestigacions
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 18:13:46 Error: [MissingControllerException] Controller class GruposInvestigacionsController could not be found.
+Exception Attributes: array (
+  'class' => 'GruposInvestigacionsController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/GruposInvestigacions
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 18:14:48 Error: [MissingControllerException] Controller class GruposInvestigacionsController could not be found.
+Exception Attributes: array (
+  'class' => 'GruposInvestigacionsController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/GruposInvestigacions
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 18:16:22 Error: [MissingControllerException] Controller class GruposInvestigacionsController could not be found.
+Exception Attributes: array (
+  'class' => 'GruposInvestigacionsController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/GruposInvestigacions
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 18:16:32 Error: [MissingControllerException] Controller class GruposInvestigacionsController could not be found.
+Exception Attributes: array (
+  'class' => 'GruposInvestigacionsController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/gruposInvestigacions
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 18:21:53 Error: [MissingControllerException] Controller class GruposInvestigacionsController could not be found.
+Exception Attributes: array (
+  'class' => 'GruposInvestigacionsController',
+  'plugin' => NULL,
+)
+Request URL: /proyectoPHP/gruposInvestigacions
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 18:55:31 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\proyectoPHP\app\Controller\GruposInvestigacionsController.php, line 20]
+2015-03-24 18:55:31 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /proyectoPHP/gruposInvestigacions
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 20, Array)
+#2 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 20, Array)
+#3 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-24 18:57:04 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\xampp\htdocs\proyectoPHP\app\Controller\GruposInvestigacionsController.php, line 21]
+2015-03-24 18:57:04 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /proyectoPHP/gruposInvestigacions
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 21)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 21, Array)
+#2 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 21, Array)
+#3 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-24 18:57:18 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\proyectoPHP\app\Controller\GruposInvestigacionsController.php, line 20]
+2015-03-24 18:57:18 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /proyectoPHP/gruposInvestigacions
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 20, Array)
+#2 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 20, Array)
+#3 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-24 19:01:54 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\proyectoPHP\app\Controller\GruposInvestigacionsController.php, line 20]
+2015-03-24 19:01:54 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /proyectoPHP/gruposInvestigacions
+Stack Trace:
+#0 C:\xampp\htdocs\proyectoPHP\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 20, Array)
+#2 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 20, Array)
+#3 C:\xampp\htdocs\proyectoPHP\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
